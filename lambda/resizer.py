@@ -1,6 +1,3 @@
-import sys
-print(sys.executable)
-
 from PIL import Image
 
 def create_thumbnail(input_image_path, output_image_path, size=(128, 128)):
